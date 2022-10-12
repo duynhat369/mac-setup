@@ -1,15 +1,22 @@
 # Command
-xcode-select --install
-'/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
-brew update
-brew cask install iterm2
-brew install bash
-brew install git
-brew cask install spectacle
-brew cask install firefox
+1. install brew: '/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
+2. update brew: brew update
+3. install iterm2: brew cask install iterm2
+4. install bash: brew install bash
+5. install git: brew install git
+6. install node: brew install node
+7. install spectacle: brew cask install spectacle
+8. install chrome
+9. install vscode: brew cask install visual-studio-code
+10. install unikey
+
+# Setup Visual Studio Code
+1. Install extension: Settings Sync (synchronous settings, extension between machines)
+2. Custom terminal: https://github.com/ohmyzsh/ohmyzsh (powerlevel 10k) installed zsh before
+
 # Install nvm/node
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 nvm install stable
 
 npm install -g lite-server eslint
-brew cask install visual-studio-code
+
