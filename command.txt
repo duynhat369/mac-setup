@@ -12,7 +12,8 @@
 
 # Setup Visual Studio Code
 1. Install extension: Settings Sync (synchronous settings, extension between machines)
-2. Custom terminal: https://github.com/ohmyzsh/ohmyzsh (powerlevel 10k) installed zsh before
+2. Install oh my zsh: https://github.com/ohmyzsh/ohmyzsh (powerlevel 10k) installed zsh before
+3. Custom terminal: example powerlevel10k https://github.com/romkatv/powerlevel10k
 
 # Install nvm/node
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
