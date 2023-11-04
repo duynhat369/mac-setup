@@ -9,6 +9,8 @@
 8. install chrome
 9. install vscode: brew cask install visual-studio-code
 10. install unikey
+11. Show only app running on Dock: defaults write com.apple.dock static-only -bool true; killall Dock
+    Make default Dock: defaults write com.apple.dock static-only -bool false; killall Dock
 
 # Setup Visual Studio Code
 1. Install extension: Settings Sync (synchronous settings, extension between machines)
