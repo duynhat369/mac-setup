@@ -1,5 +1,5 @@
 # Command
-1. install brew: '/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
+1. install brew: https://brew.sh/
 2. update brew: brew update
 3. install iterm2: brew cask install iterm2
 4. install bash: brew install bash
